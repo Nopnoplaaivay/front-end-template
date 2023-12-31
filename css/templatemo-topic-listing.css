@@ -11,15 +11,17 @@ https://templatemo.com/tm-590-topic-listing
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #13547a;
-  --secondary-color:              #80d0c7;
+  --primary-color:                #0C134F;
+  --secondary-color:              #1D267D;
   --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #80d0c7;
-  --custom-btn-bg-hover-color:    #13547a;
+  --custom-btn-bg-color:          #91d0e5;
+  --custom-btn-bg-hover-color:    #1D267D;
   --dark-color:                   #000000;
   --p-color:                      #717275;
-  --border-color:                 #7fffd4;
-  --link-hover-color:             #13547a;
+  --border-color:                 #A5D7E8;
+  --link-hover-color:             #1D267D;
+
+
 
   --body-font-family:             'Open Sans', sans-serif;
   --title-font-family:            'Montserrat', sans-serif;
@@ -96,7 +98,7 @@ h5 {
 }
 
 h6 {
-  color: var(--primary-color);
+  color: var(--white-color);
   font-size: var(--h6-font-size);
 }
 
@@ -147,7 +149,7 @@ strong {
 }
 
 .section-overlay {
-  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  background-image: linear-gradient(15deg, var(--link-hover-color) 0%, var(--custom-btn-bg-color) 100%);
   position: absolute;
   top: 0;
   left: 0;
@@ -193,8 +195,8 @@ strong {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-link:focus, 
 .nav-tabs .nav-link:hover {
-  border-bottom-color: var(--primary-color);
-  color: var(--primary-color);
+  border-bottom-color: var(--custom-btn-bg-color);
+  color: var(--custom-btn-bg-color);
 }
 
 
@@ -248,7 +250,7 @@ strong {
   SITE HEADER              
 -----------------------------------------*/
 .site-header {
-  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  background-image: linear-gradient(15deg, #0C134F 0%, #1D267D 100%);
   padding-top: 150px;
   padding-bottom: 80px;
 }
@@ -325,7 +327,7 @@ strong {
 
 .navbar-nav .nav-link.active, 
 .navbar-nav .nav-link:hover {
-  color: var(--primary-color);
+  color: var(--custom-btn-bg-color);
 }
 
 .navbar .dropdown-menu {
@@ -486,7 +488,7 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  background-image: linear-gradient(15deg, #0C134F 0%, #1D267D 100%);
   position: relative;
   overflow: hidden;
   padding-top: 150px;
